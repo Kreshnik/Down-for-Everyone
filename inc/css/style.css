@@ -1,0 +1,58 @@
+body{
+	height:210px;
+	width:370px;
+	position: relative;
+}
+div.content{
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+input#domain_input{
+	height:25px;
+	margin-top:10px;
+}
+img#loading{
+	display: none;
+	height: 100px;
+	width: 100px;
+}
+div.well{
+	width: 320px;
+	margin: 5px;
+}
+button i{
+	margin-right:5px;
+}
+button.btn-big{
+	width: 310px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 27px;
+	font-weight: bold;
+}
+div.hidden{
+	display: none;
+}
+button#status{
+	display: none;
+}
+button#status span.happy{
+	background-image:url('../img/up.png');
+	height:32px;
+	width:32px;
+}
+button#status span.sad{
+	background-image:url('../img/down.png');
+	height:32px;
+	width:32px;
+}
+div.feedback{
+	text-align: right;
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
+div.feedback a{
+	margin: 0 5px 5px 0;
+}

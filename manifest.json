@@ -1,0 +1,14 @@
+{
+  "author" : "Kreshnik Hasanaj",
+  "name" : "Down For Everyone Or Just Me",
+  "version" : "1.2",
+  "description" : "Check wherever your website is down or up?",
+  "browser_action" : {
+    "default_icon" : "icon.png",
+    "popup" : "index.html"
+  },
+  "permissions": [
+    "http://www.downforeveryoneorjustme.com/",
+	"tabs"
+  ]
+}
